@@ -1,0 +1,10 @@
+server:
+  port: 8080
+---
+springdoc:
+  api-docs:
+    path: /test-open-api/api-docs
+  swagger-ui:
+    filter: 'true'
+    urls-primary-name: Test Open Api Swagger
+    try-it-out-enabled: 'true'
